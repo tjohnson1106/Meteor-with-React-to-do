@@ -6,3 +6,6 @@ if (Meteor.isClient) {
     React.render(<App />, document.getElementById("render-target"));
   });
 }
+
+// Define a collection to hold our tasks
+Tasks = new Mongo.Collection("tasks");
