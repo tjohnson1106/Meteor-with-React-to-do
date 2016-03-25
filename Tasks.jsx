@@ -25,8 +25,8 @@ Task = React.createClass({
     // so that we can style them nicely in CSS
     const taskClassName = this.props.task.checked ? "checked" : "";
 
-    return 
-
+    return (
+   
       <li className={taskClassName}>
         <button className="delete" onClick={this.deleteThisTask}>
           &times;
